@@ -5,8 +5,6 @@ import axios from 'axios';
 // 2. addContact - додавання нового контакту (метод POST). Базовий тип екшену це рядок "contacts/addContact".
 // 3. deleteContact - видалення контакту по ID (метод DELETE). Базовий тип екшену це рядок "contacts/deleteContact".
 
-axios.defaults.baseURL = 'https://connections-api.goit.global/';
-
 export const fetchContacts = createAsyncThunk(
   'contacts/fetchAll',
   async (_, thunkAPI) => {

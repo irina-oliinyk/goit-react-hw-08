@@ -1,9 +1,16 @@
 .wrapper {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 17px;
 }
 
 .username {
   font-weight: 700;
+}
+
+.button {
+  background-color: blueviolet;
+  border-radius: 15px;
+  height: 35px;
+  width: 70px;
 }
